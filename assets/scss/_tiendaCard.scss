@@ -1,0 +1,20 @@
+.cardClass {
+    background-color: $beigeCard;
+    transition: all 0.5s;
+}
+
+.cardClass:hover {
+    transform: scale(1.05);
+    background-color: $beige;
+    color: $gris;
+}
+
+.precio {
+    color: $bordo;
+}
+
+.btnClass {
+    background-color: $bordo;
+    color: $beige;
+    border: 2px solid $gris;
+}
