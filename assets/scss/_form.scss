@@ -5,6 +5,7 @@
 }
 
 .formTextarea {
+    @extend .formInput;
     height: 150px;
 }
 

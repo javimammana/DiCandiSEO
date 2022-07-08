@@ -1,32 +1,33 @@
-.background {
-    width: 100%;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    color: $beigeTrasparencia;
-}
 
 .backgroundGral {
+    @extend .background;
     background-image: map-get($background , bgGral ) ;
 }
 .backgrounMalbec {
+    @extend .background;
     background-image: map-get($background , bgMalbec );
 }
 .backgrounCabernet {
+    @extend .background;
     background-image: map-get($background , bgCabernet );
 }
 .backgrounMerlot {
+    @extend .background;
     background-image: map-get($background , bgMerlot );
 }
 .backgrounTorrontes {
+    @extend .background;
     background-image: map-get($background , bgTorrontes );
 }
 .backgrounVisita {
+    @extend .background;
     background-image: map-get($background , bgVisita );
 }
 .backgrounDegustacion {
+    @extend .background;
     background-image: map-get($background , bgDegustacion );
 }
 .backgrounCircuito {
+    @extend .background;
     background-image: map-get($background , bgCircuito );
 }

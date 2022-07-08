@@ -19,4 +19,12 @@ $background: (
     background-color: $bgColor;
     color: $tColor;
     border: $border;
-}
+};
+
+.background {
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: $beigeTrasparencia;
+};

@@ -8,6 +8,14 @@
   box-sizing: border-box;
 }
 
+.background, .backgrounCircuito, .backgrounDegustacion, .backgrounVisita, .backgrounTorrontes, .backgrounMerlot, .backgrounCabernet, .backgrounMalbec, .backgroundGral {
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: rgba(243, 242, 238, 0.6666666667);
+}
+
 .navBox {
   background-color: #86212A;
   height: 55px;
@@ -98,14 +106,6 @@
   background-color: #F3F2EE;
 }
 
-.background {
-  width: 100%;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  color: rgba(243, 242, 238, 0.6666666667);
-}
-
 .backgroundGral {
   background-image: url("../img/backgroud/backgroud.jpg");
 }
@@ -138,7 +138,7 @@
   background-image: url("../img/backgroud/backgroundCircuito.jpg");
 }
 
-.formInput {
+.formInput, .formTextarea {
   background-color: #262626;
   color: #F3F2EE;
   border: 1px solid #86212A;
