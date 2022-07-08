@@ -14,7 +14,5 @@
 }
 
 .btnClass {
-    background-color: $bordo;
-    color: $beige;
-    border: 2px solid $gris;
+    @include btn ($bordo,$beige,2px solid $gris);
 }

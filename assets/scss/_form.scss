@@ -9,7 +9,5 @@
 }
 
 .formBtn {
-    background-color: $beige;
-    color: $bordo;
-    border: 1px solid $beige;
+    @include btn ($beige,$bordo,2px solid $beige);
 }
