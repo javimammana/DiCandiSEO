@@ -5,27 +5,28 @@
     background-position: center;
     color: $beigeTrasparencia;
 }
+
 .backgroundGral {
-    background-image:url('../img/backgroud/backgroud.jpg');
+    background-image: map-get($background , bgGral ) ;
 }
 .backgrounMalbec {
-    background-image: url('../img/backgroud/backgroundMalbec.jpg');
+    background-image: map-get($background , bgMalbec );
 }
 .backgrounCabernet {
-    background-image: url('../img/backgroud/backgroundCabernet.jpg');
+    background-image: map-get($background , bgCabernet );
 }
 .backgrounMerlot {
-    background-image: url('../img/backgroud/backgroundMerlot.jpg');
+    background-image: map-get($background , bgMerlot );
 }
 .backgrounTorrontes {
-    background-image: url('../img/backgroud/backgroundTorrontes.jpg');
+    background-image: map-get($background , bgTorrontes );
 }
 .backgrounVisita {
-    background-image: url('../img/backgroud/backgroundVisita.jpg');
+    background-image: map-get($background , bgVisita );
 }
 .backgrounDegustacion {
-    background-image: url('../img/backgroud/backgroundDegustacion.jpg');
+    background-image: map-get($background , bgDegustacion );
 }
 .backgrounCircuito {
-    background-image: url('../img/backgroud/backgroundCircuito.jpg');
+    background-image: map-get($background , bgCircuito );
 }
