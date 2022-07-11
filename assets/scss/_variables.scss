@@ -27,4 +27,5 @@ $background: (
     background-size: cover;
     background-position: center;
     color: $beigeTrasparencia;
+    background-image: map-get($background , bgGral ) ;
 };

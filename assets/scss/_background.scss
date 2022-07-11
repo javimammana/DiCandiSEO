@@ -1,8 +1,4 @@
 
-.backgroundGral {
-    @extend .background;
-    background-image: map-get($background , bgGral ) ;
-}
 .backgrounMalbec {
     @extend .background;
     background-image: map-get($background , bgMalbec );
