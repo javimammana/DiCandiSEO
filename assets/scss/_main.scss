@@ -2,3 +2,16 @@
     height: calc(100vh - 90px);
     background-color: $beige;
 }
+
+.encabezado {
+    font-family: 'Tangerine', cursive;
+    opacity: 50%;
+    font-size: 60px;
+    position: relative;
+    top: -10px;
+}
+
+.divh1 {
+    position: relative;
+    top: -30px;
+}

@@ -2,9 +2,27 @@
     background-color: $gris;
 
     a {
-        color: $beige;
-        font-size: 12px;
+        h5 {
+            color: $beige;
+            font-size: 12px;
+            opacity: 50%;
+            transition: all 0.5s;
+        }
+        h5:hover {
+            opacity: 100%;
+            transform: scale(1.03);
+        }
     }
+}
+
+.footerImg {
+    opacity: 70%;
+    transition: all 0.5s;
+}
+
+.footerImg:hover {
+    opacity: 100%;
+    transform: scale(1.05);
 }
 
 .copyright {

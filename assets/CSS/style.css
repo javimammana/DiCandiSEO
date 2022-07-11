@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Tangerine&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -88,9 +88,25 @@
 .footerBarClass {
   background-color: #262626;
 }
-.footerBarClass a {
+.footerBarClass a h5 {
   color: #F3F2EE;
   font-size: 12px;
+  opacity: 50%;
+  transition: all 0.5s;
+}
+.footerBarClass a h5:hover {
+  opacity: 100%;
+  transform: scale(1.03);
+}
+
+.footerImg {
+  opacity: 70%;
+  transition: all 0.5s;
+}
+
+.footerImg:hover {
+  opacity: 100%;
+  transform: scale(1.05);
 }
 
 .copyright {
@@ -104,6 +120,19 @@
 .mainClass {
   height: calc(100vh - 90px);
   background-color: #F3F2EE;
+}
+
+.encabezado {
+  font-family: "Tangerine", cursive;
+  opacity: 50%;
+  font-size: 60px;
+  position: relative;
+  top: -10px;
+}
+
+.divh1 {
+  position: relative;
+  top: -30px;
 }
 
 .backgroundGral {
@@ -185,5 +214,9 @@
     display: flex;
     flex-direction: row;
     justify-content: end;
+  }
+
+  .encabezado {
+    font-size: 100px;
   }
 }
